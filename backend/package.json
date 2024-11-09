@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": ".",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.16",
+    "nodemailer-express-handlebars": "^7.0.0"
+  }
+}

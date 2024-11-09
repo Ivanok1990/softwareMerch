@@ -1,0 +1,10 @@
+<h2>Hola {{nombre}}, tu pedido ha sido recibido</h2>
+<p><strong>Número de Orden:</strong> {{numeroOrden}}</p>
+<p><strong>Detalles de los artículos:</strong></p>
+<ul>
+    {{#each articulos}}
+        <li>{{nombre}}: {{cantidad}} x ${{precio}}</li>
+    {{/each}}
+</ul>
+<p><strong>Total:</strong> ${{total}}</p>
+<p>Gracias por tu compra.</p>
